@@ -1,4 +1,7 @@
 import './App.css';
+import A from './components/A';
+import B from './components/B';
+
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
         <div style={{backgroundColor:'white', color:'green', marginTop:50}} >
           lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </div>
+        
+         <A />
+         <B />
        
       </header>
     </div>
