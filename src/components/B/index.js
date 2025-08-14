@@ -1,9 +1,10 @@
 import React from 'react';
-import './style.css';
+import styles from './style.module.css'; // CSS Modules added for styling
+// CSS Modules .module.css uzantisi ile calisir !!
 
 const B = () => {
     return (
-        <div className='title'>
+        <div className={styles.title}>
             B
         </div>
     );
